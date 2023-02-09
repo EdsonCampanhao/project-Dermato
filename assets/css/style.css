@@ -1,0 +1,347 @@
+:root {
+
+    --fonte-roboto: 'Roboto', sans-serif;
+    --cor-creme: #F7F1DF;
+    --vermelho: #DC2428;
+    --bege: #E4D0B4;
+    --rosa: #FFCCD1;
+    --marrom: #644B2C;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    line-height: 130%;
+
+}
+
+body {
+    background-color: var(--cor-creme);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--vermelho);
+    font-weight: 700;
+}
+
+.lista {
+    background-color: var(--cor-creme);
+}
+
+.desabled {
+    display: none;
+}
+
+.menu-hamburguer {
+    width: 43px;
+    height: 18px;
+    margin: 36px 0 60px 36px;
+    text-align: center;
+}
+
+.apresentacao__btn {
+    margin: 0 0 0 36px;
+}
+
+.apresentacao__container {
+    background-color: var(--cor-creme);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: left;
+}
+
+.apresentacao__titulo {
+    padding: 0 136px 0 36px;
+    text-align: left;
+    text-justify: inter-word;
+}
+
+.apresentacao__descricao {
+    padding: 0 60px 0 36px;
+    font-size: 16px;
+    text-align: left;
+    text-justify: inter-word;
+}
+
+.numeros {
+    background-color: var(--bege);
+
+}
+
+.numeros__container {
+    width: 80%;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+    border-radius: 5px;
+
+}
+
+.numeros__quantidade {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.numeros__info {
+    color: var(--vermelho);
+    font-weight: 700;
+}
+
+.tratamentos__esteticos {
+    text-align: center;
+}
+
+.tratamento__estetico__container {
+    padding: 48px 0 48px;
+    text-align: center;
+    background-color: var(--bege);
+}
+
+.tratamento__estetico__card {
+    width: 355px;
+    height: 210px;
+    display: flex;
+    background: #fff;
+    margin: 0 38px 20px 34px;
+    border-radius: 5px;
+}
+
+.tratamento__estetico__img {
+    width: 95px;
+    background: var(--rosa);
+    border-radius: 50%;
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    margin: 19px;
+    margin-top: 20px;
+}
+
+.tratamento__estetico__img__img {
+    width: 66px;
+    margin: 12px;
+}
+
+.tratamento__estetico__header {
+    margin-top: 40px;
+}
+
+.tratamento__estetico__body {
+    margin: 10px 10px 40px 0;
+}
+
+
+.tratamentos__derma {
+    background: #FCF8F5;
+    padding-top: 40px;
+    padding-left: 38px;
+    padding-bottom: 60px;
+}
+
+.tratamentos__derma h2 {
+    padding-bottom: 20px;
+}
+
+
+.tratamentos_derma__texto {
+    padding-bottom: 20px;
+}
+
+.tratamentos__derma__paragrafo {
+    padding: 20px 0;
+}
+
+.tratamentos__derma__item {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.faq {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 50px 36px;
+}
+
+.faq__info {
+    width: 358px;
+    border: 1px solid #B2B2B2;
+    padding: 20px 0 20px 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.faq__titulo {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 283px;
+}
+
+.faq__icone {
+    height: 8px;
+    width: 15px;
+    margin: 10px 20px;
+}
+
+.depoimentos {
+    background: var(--bege);
+    color: #fff;
+    padding: 50px 0 50px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.depoimentos__carrossel {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.depoimentos__seta{
+    height: 16px;
+    width:8px;
+}
+.depoimentos__card {
+    width: 311px;
+    height: 174px;
+    background-color: #fff;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 0 21px 0 24px;
+    font-size: 12px;
+
+}
+
+.depoimentos__img {
+    width: 119px;
+    height: 117px;
+}
+
+.depoimentos__textos {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.depoimento__cliente__nome {
+    color: #000;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rodape {
+    background: var(--marrom);
+    color: #fff;
+    padding: 36px;
+}
+
+.rodape h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 36px;
+}
+
+.contato__info {
+    color: #fff;
+
+}
+
+.contato__titulo {
+    font-size: 20px;
+    margin-bottom: 37px;
+    color: #fff;
+}
+
+.contato__telefone,
+.contato__email,
+.contato__endereco_rua,
+.contato__endereco_cidade {
+    margin-bottom: 17px;
+}
+
+.contato__divisor {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 16px;
+}
+
+.contato__redes_sociais{
+    display: flex;
+    margin-bottom: 46px;
+}
+.instagram,
+.facebook,
+.youtube {
+    width: 32px;
+    margin-right: 40px;
+}
+
+.roda__info__titulo{
+    color: #fff;
+}
+.roda__info__titulo{
+    margin-bottom: 37px;
+}
+
+.rodape__info{
+    color: #fff;
+}
+.rodape-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-bottom: 56px;
+    }
+.rodape__links{
+    color: #fff;
+    padding-bottom: 26px;
+}
+
+.direitos_autorais{
+    margin-bottom: 36px;
+}
