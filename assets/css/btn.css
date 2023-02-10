@@ -5,3 +5,11 @@
     padding:11px 30px ;
     border-radius:6px ;
 }
+
+@media screen and (min-width: 1440px){
+    .btn{
+        width: 260px;
+        height: 60px;
+        font-size: 20px;
+        }
+}
