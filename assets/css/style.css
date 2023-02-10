@@ -108,22 +108,22 @@ h3 {
     font-weight: 700;
 }
 
-.tratamentos__esteticos {
-    text-align: center;
-}
 
 .tratamento__estetico__container {
-    padding: 48px 0 48px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:22px;
+    padding: 48px 0;
     background-color: var(--bege);
+    align-items: center;
 }
 
 .tratamento__estetico__card {
     width: 355px;
     height: 210px;
-    display: flex;
+
     background: #fff;
-    margin: 0 38px 20px 34px;
+    padding: 30px;
     border-radius: 5px;
 }
 
@@ -132,10 +132,10 @@ h3 {
     background: var(--rosa);
     border-radius: 50%;
     display: flex;
-    align-self: flex-start;
     flex-wrap: wrap;
-    margin: 19px;
-    margin-top: 20px;
+    margin-right: 8px;
+    float: left;
+
 }
 
 .tratamento__estetico__img__img {
@@ -144,11 +144,13 @@ h3 {
 }
 
 .tratamento__estetico__header {
-    margin-top: 40px;
+    margin: 30px 0 20px;
+   
 }
 
 .tratamento__estetico__body {
-    margin: 10px 10px 40px 0;
+    display: inline;
+    padding-left: 13px;
 }
 
 
@@ -222,10 +224,12 @@ h3 {
     gap: 8px;
 
 }
-.depoimentos__seta{
+
+.depoimentos__seta {
     height: 16px;
-    width:8px;
+    width: 8px;
 }
+
 .depoimentos__card {
     width: 311px;
     height: 174px;
@@ -309,10 +313,11 @@ h3 {
     margin-bottom: 16px;
 }
 
-.contato__redes_sociais{
+.contato__redes_sociais {
     display: flex;
     margin-bottom: 46px;
 }
+
 .instagram,
 .facebook,
 .youtube {
@@ -320,28 +325,31 @@ h3 {
     margin-right: 40px;
 }
 
-.roda__info__titulo{
+.roda__info__titulo {
     color: #fff;
 }
-.roda__info__titulo{
+
+.roda__info__titulo {
     margin-bottom: 37px;
 }
 
-.rodape__info{
+.rodape__info {
     color: #fff;
 }
-.rodape-list{
+
+.rodape-list {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 17px;
     margin-bottom: 56px;
-    }
-.rodape__links{
+}
+
+.rodape__links {
     color: #fff;
     padding-bottom: 26px;
 }
 
-.direitos_autorais{
+.direitos_autorais {
     margin-bottom: 36px;
 }
