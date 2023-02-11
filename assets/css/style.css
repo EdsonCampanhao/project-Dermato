@@ -58,7 +58,7 @@ h3 {
     margin: 0 0 23px 36px;
 }
 
-.aprensetacao__media{
+.aprensetacao__media {
     background-color: var(--cor-creme);
     display: flex;
     flex-direction: column;
@@ -112,7 +112,7 @@ h3 {
 .tratamento__estetico__container {
     display: flex;
     flex-direction: column;
-    gap:22px;
+    gap: 22px;
     padding: 48px 0;
     background-color: var(--bege);
     align-items: center;
@@ -145,7 +145,7 @@ h3 {
 
 .tratamento__estetico__header {
     margin: 30px 0 20px;
-   
+
 }
 
 .tratamento__estetico__body {
@@ -181,12 +181,21 @@ h3 {
 }
 
 .faq {
+    padding: 50px 36px;
     background: #fff;
+}
+
+.faq__cards {
+
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 18px;
-    padding: 50px 36px;
+
+}
+
+.faq__banner {
+    display: none;
 }
 
 .faq__info {
@@ -246,6 +255,10 @@ h3 {
     font-size: 12px;
 
 }
+.depoimentos__card:nth-child(3){
+    display: none;
+}
+
 
 .depoimentos__img {
     width: 119px;
@@ -343,105 +356,226 @@ h3 {
 /* MEDIA QUERY */
 
 
-@media screen and (min-width: 1440px){
-    .lista{
+@media screen and (min-width: 1440px) {
+    .lista {
         display: flex;
         flex-direction: row;
         font-size: 24px;
         color: #644B2C;
         justify-content: space-between;
-        padding: 48px 140px ;
+        padding: 48px 140px;
     }
-    .menu-hamburguer{
+
+    .menu-hamburguer {
         display: none;
     }
-    .desabled{
+
+    /* .desabled{
         display: block;
-    }
-    .lista__lista{
+    } */
+    .lista__lista {
         display: flex;
         list-style-type: none;
         gap: 48px;
     }
-    .lista__titulo{
+
+    .lista__titulo {
+        display: block;
         text-transform: uppercase;
         margin-right: 580px;
-        
+
     }
-    .lista__item{
+
+    .lista__item {
         text-transform: capitalize;
     }
 
-    .apresentacao{
+    .apresentacao {
         margin: 0 140px;
     }
-    .apresentacao__container{
+
+    .apresentacao__container {
         padding-bottom: 80px;
     }
 
-    .apresentacao__titulo{
+    .apresentacao__titulo {
         font-size: 48px;
         margin-bottom: 20px;
         text-align: left;
-    text-justify: inter-word;
-    padding: 0;
-    }
-    .apresentacao__descricao{
-        font-size: 20px;
-        margin-bottom: 20px;
-        
-    padding: 0;
-    }
-    .apresentacao__btn{
-    margin: 0;
+        text-justify: inter-word;
+        padding: 0;
     }
 
-    .apresentacao__container{
+    .apresentacao__descricao {
+        font-size: 20px;
+        margin-bottom: 20px;
+
+        padding: 0;
+    }
+
+    .apresentacao__btn {
+        margin: 0;
+    }
+
+    .apresentacao__container {
         display: flex;
         flex-direction: row;
     }
-    .aprensetacao__media{
+
+    .aprensetacao__media {
         min-width: 537px;
     }
-    .apresentacao__banner{
+
+    .apresentacao__banner {
         width: 617px;
     }
-    .numeros__container{
+
+    .numeros__container {
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-    .boder__vertical{
+
+    .boder__vertical {
         border: 1px solid #7E623C;
     }
-    .numeros__card{
+
+    .numeros__card {
         color: #2E2E2E;
     }
-    .numeros{
+
+    .numeros {
         position: relative;
     }
-    .numeros__container{
+
+    .numeros__container {
         position: absolute;
-          top: -50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-    }
-    .numeros__container{
-       
-        
+        top: -50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
+    
+
     /* TRATAMENTOS ESTÉTICOS */
-    .tratamentos__esteticos{
+   
+.tratamento__estetico__card{
+    padding: 25px;
+}
+    .tratamento__estetico__titulo {
+        width: 100%;
+        text-align: center;
+        font-size: 36px;
     }
-    .tratamento__estetico__container{
-        padding-top: 170px;
+
+    .tratamento__estetico__container {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 170px 50px 170px;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 60px;
+
     }
 
     /* TRATAMENTOS DEMA */
-    .tratamentos__derma{
+    .tratamentos__derma {
         margin-top: -50px;
+        display: flex;
+        gap: 120px;
+        justify-content: center;
+        padding: 80px 0;
+        font-size: 20px;
+    }
+.tratamentos__titulo{
+    font-size: 36px;
+}
+    .tratamentos__derma-banner {
+        display: block;
     }
 
+    .tratamentos__derma-img {
+        width: 400px;
+        height: 600px;
+    }
+
+    .tratamentos__derma__info {
+        width: 624px;
+    }
+
+
+    .faq {
+        display: flex;
+        gap: 80px;
+        justify-content: center;
+    }
+
+    .faq__cards {}
+
+    .faq__info {
+        width: 660px;
+    }
+
+    .faq__titulo {
+        font-size: 20px;
+    }
+
+    .faq__banner {
+        display: block;
+        width: 424px;
+        height: 522px;
+    }
+    .depoimentos__titulo{
+        font-size: 36px;
+
+    }
+
+    .depoimentos__carrossel {
+        gap: 50px;
+    }
+    .depoimentos__seta{
+        width: 25px ;
+        height:51px ;
+    }
+    .depoimentos__card{
+        Width:451px;
+        Height:254.2px;
+    }
+    .depoimentos__card:nth-child(3){
+        display: flex;
+    }
+    .depoimentos__textos{
+        gap: 14px;
+    }
+    .depoimento__cliente__nome{
+        font-size: 20px;
+        text-align: left;
+    }
+    .depoimento__cliente__texto{
+        font-size: 19px;
+        text-align: left;
+    }
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        gap: 220px;
+        padding-left: 141px;
+    }
+    .rodape__nome-da-empresa{
+        font-size: 32px;
+    }
+    .contato__info{
+        font-size: 20px;
+    }
+    .contato__titulo{
+        font-size: 24px;
+    }
+    .roda__info__titulo{
+        font-size: 24px;
+    }
+    .rodape-list{
+        font-size: 20px;
+    }
 }
